@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nagaraj/Development/tools/ultrasonic_ros_wrapper/catkin_ws/install/setup.sh

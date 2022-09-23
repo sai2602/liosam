@@ -1,0 +1,487 @@
+************************************* Invoked: Fr. Nov. 5 10:34:22 2021
+[0] Arguments: ./ANavS_Wizard_Online_Installer_Unix64Bit
+[0] Operations sanity check succeeded.
+[2713] addDownloadable "bin.7z"
+[2713] addDownloadable "doc.7z"
+[2713] addDownloadable "lib.7z"
+[2713] addDownloadable "plugins.7z"
+[2713] addDownloadable "qml.7z"
+[2713] addDownloadable "translations.7z"
+[2713] addDownloadable "content.7z"
+[50728] Tmp is on a different volume than the installation directory. Tmp volume mount point: "/" Free space available: "188.26 GB" Install volume mount point: "/home" Free space available: "19.48 GB"
+[50728] Installation space required: "246.69 MB" Temporary space required: "61.90 MB" Local repository size: "0.00 bytes"
+[51531] backup  operation: Mkdir
+[51531] 	- arguments: /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[51531] Done
+[51531] perform  operation: Mkdir
+[51531] 	- arguments: /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[51531] Done
+[51531] Install size: 1 components
+[66846] backup ANavS_Wizard operation: Extract
+[66846] 	- arguments: installer://ANavS_Wizard/7.2.1-1bin.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[66846] Done
+[66846] perform ANavS_Wizard operation: Extract
+[66846] 	- arguments: installer://ANavS_Wizard/7.2.1-1bin.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[68254] Done
+[68254] backup ANavS_Wizard operation: Extract
+[68254] 	- arguments: installer://ANavS_Wizard/7.2.1-1content.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[68254] Done
+[68254] perform ANavS_Wizard operation: Extract
+[68254] 	- arguments: installer://ANavS_Wizard/7.2.1-1content.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[68417] Done
+[68417] backup ANavS_Wizard operation: Extract
+[68417] 	- arguments: installer://ANavS_Wizard/7.2.1-1doc.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[68417] Done
+[68417] perform ANavS_Wizard operation: Extract
+[68417] 	- arguments: installer://ANavS_Wizard/7.2.1-1doc.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[68422] Done
+[68422] backup ANavS_Wizard operation: Extract
+[68422] 	- arguments: installer://ANavS_Wizard/7.2.1-1lib.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[68422] Done
+[68422] perform ANavS_Wizard operation: Extract
+[68422] 	- arguments: installer://ANavS_Wizard/7.2.1-1lib.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[69549] Done
+[69549] backup ANavS_Wizard operation: Extract
+[69549] 	- arguments: installer://ANavS_Wizard/7.2.1-1plugins.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[69549] Done
+[69549] perform ANavS_Wizard operation: Extract
+[69549] 	- arguments: installer://ANavS_Wizard/7.2.1-1plugins.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[69589] Done
+[69589] backup ANavS_Wizard operation: Extract
+[69589] 	- arguments: installer://ANavS_Wizard/7.2.1-1qml.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[69589] Done
+[69589] perform ANavS_Wizard operation: Extract
+[69589] 	- arguments: installer://ANavS_Wizard/7.2.1-1qml.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[69758] Done
+[69758] backup ANavS_Wizard operation: Extract
+[69758] 	- arguments: installer://ANavS_Wizard/7.2.1-1translations.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[69758] Done
+[69758] perform ANavS_Wizard operation: Extract
+[69758] 	- arguments: installer://ANavS_Wizard/7.2.1-1translations.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[69789] Done
+[69789] backup ANavS_Wizard operation: Extract
+[69789] 	- arguments: installer://ANavS_Wizard/7.2.4-1bin.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[69789] Done
+[69789] perform ANavS_Wizard operation: Extract
+[69789] 	- arguments: installer://ANavS_Wizard/7.2.4-1bin.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[71218] Done
+[71218] backup ANavS_Wizard operation: Extract
+[71218] 	- arguments: installer://ANavS_Wizard/7.2.4-1content.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[71218] Done
+[71218] perform ANavS_Wizard operation: Extract
+[71218] 	- arguments: installer://ANavS_Wizard/7.2.4-1content.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[71382] Done
+[71382] backup ANavS_Wizard operation: Extract
+[71382] 	- arguments: installer://ANavS_Wizard/7.2.4-1doc.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[71382] Done
+[71382] perform ANavS_Wizard operation: Extract
+[71382] 	- arguments: installer://ANavS_Wizard/7.2.4-1doc.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[71386] Done
+[71386] backup ANavS_Wizard operation: Extract
+[71386] 	- arguments: installer://ANavS_Wizard/7.2.4-1lib.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[71386] Done
+[71386] perform ANavS_Wizard operation: Extract
+[71386] 	- arguments: installer://ANavS_Wizard/7.2.4-1lib.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[72520] Done
+[72520] backup ANavS_Wizard operation: Extract
+[72520] 	- arguments: installer://ANavS_Wizard/7.2.4-1plugins.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[72520] Done
+[72520] perform ANavS_Wizard operation: Extract
+[72520] 	- arguments: installer://ANavS_Wizard/7.2.4-1plugins.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[72560] Done
+[72561] backup ANavS_Wizard operation: Extract
+[72561] 	- arguments: installer://ANavS_Wizard/7.2.4-1qml.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[72561] Done
+[72561] perform ANavS_Wizard operation: Extract
+[72561] 	- arguments: installer://ANavS_Wizard/7.2.4-1qml.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[72749] Done
+[72749] backup ANavS_Wizard operation: Extract
+[72749] 	- arguments: installer://ANavS_Wizard/7.2.4-1translations.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[72749] Done
+[72749] perform ANavS_Wizard operation: Extract
+[72749] 	- arguments: installer://ANavS_Wizard/7.2.4-1translations.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[72780] Done
+[72781] Writing maintenance tool: "/home/nagaraj/Development/tools/ANAVS_Wizard/wizard/maintenancetool.new"
+[72808] Wrote permissions for maintenance tool.
+[72847] Maintenance tool restart: false.
+************************************* Invoked: Fr. Nov. 5 10:36:11 2021
+[0] Operations sanity check succeeded.
+[461] Url is: "/tmp/remoterepo-UlHnHb"
+[461] addDownloadable "bin.7z"
+[461] addDownloadable "doc.7z"
+[461] addDownloadable "lib.7z"
+[461] addDownloadable "plugins.7z"
+[461] addDownloadable "qml.7z"
+[461] addDownloadable "translations.7z"
+[461] addDownloadable "content.7z"
+************************************* Invoked: Fr. Nov. 5 12:48:54 2021
+[0] Operations sanity check succeeded.
+[1] Network error while downloading 'https://www.anavs.com/customers/Repository_Wizard_MSRTK_Unix/Updates.xml?-1043524641': Host www.anavs.com not found.
+[1] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: Fr. Nov. 5 13:02:05 2021
+[0] Operations sanity check succeeded.
+[1] Network error while downloading 'https://www.anavs.com/customers/Repository_Wizard_MSRTK_Unix/Updates.xml?-1245057203': Host www.anavs.com not found.
+[1] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: Fr. Nov. 5 13:02:33 2021
+[0] Operations sanity check succeeded.
+[1] Network error while downloading 'https://www.anavs.com/customers/Repository_Wizard_MSRTK_Unix/Updates.xml?574500061': Host www.anavs.com not found.
+[1] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: Fr. Nov. 5 13:03:02 2021
+[0] Operations sanity check succeeded.
+[1] Network error while downloading 'https://www.anavs.com/customers/Repository_Wizard_MSRTK_Unix/Updates.xml?850146429': Host www.anavs.com not found.
+[1] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: Fr. Nov. 5 13:13:15 2021
+[0] Operations sanity check succeeded.
+[1] Network error while downloading 'https://www.anavs.com/customers/Repository_Wizard_MSRTK_Unix/Updates.xml?-489976423': Host www.anavs.com not found.
+[2] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: Fr. Nov. 5 13:17:48 2021
+[0] Operations sanity check succeeded.
+[1] Network error while downloading 'https://www.anavs.com/customers/Repository_Wizard_MSRTK_Unix/Updates.xml?1233318920': Host www.anavs.com not found.
+[1] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: Fr. Nov. 5 13:46:10 2021
+[0] Operations sanity check succeeded.
+[1] Network error while downloading 'https://www.anavs.com/customers/Repository_Wizard_MSRTK_Unix/Updates.xml?-1559928066': Host www.anavs.com not found.
+[2] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: Do. Feb. 24 12:07:02 2022
+[0] Operations sanity check succeeded.
+[10] Network error while downloading 'https://www.anavs.com/customers/Repository_Wizard_MSRTK_Unix/Updates.xml?1665976669': Host www.anavs.com not found.
+[10] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: Do. Feb. 24 14:19:34 2022
+[0] Operations sanity check succeeded.
+[1] Network error while downloading 'https://www.anavs.com/customers/Repository_Wizard_MSRTK_Unix/Updates.xml?-1207740416': Host www.anavs.com not found.
+[1] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: Mo. Mai 30 13:22:03 2022
+[0] Operations sanity check succeeded.
+[807] Url is: "/tmp/remoterepo-5LnJMV"
+[807] addDownloadable "bin.7z"
+[807] addDownloadable "doc.7z"
+[807] addDownloadable "lib.7z"
+[807] addDownloadable "plugins.7z"
+[807] addDownloadable "qml.7z"
+[807] addDownloadable "translations.7z"
+[807] addDownloadable "content.7z"
+************************************* Invoked: Mo. Mai 30 13:23:05 2022
+[0] Operations sanity check succeeded.
+[699] Url is: "/tmp/remoterepo-33JBE5"
+[699] addDownloadable "bin.7z"
+[699] addDownloadable "doc.7z"
+[699] addDownloadable "lib.7z"
+[699] addDownloadable "plugins.7z"
+[699] addDownloadable "qml.7z"
+[699] addDownloadable "translations.7z"
+[699] addDownloadable "content.7z"
+************************************* Invoked: Mo. Mai 30 13:23:09 2022
+[0] Arguments: maintenancetool, --updater
+[17] Operations sanity check succeeded.
+************************************* Invoked: Mo. Mai 30 13:23:19 2022
+[0] Operations sanity check succeeded.
+[683] Url is: "/tmp/remoterepo-VtnK9I"
+[683] addDownloadable "bin.7z"
+[683] addDownloadable "doc.7z"
+[683] addDownloadable "lib.7z"
+[683] addDownloadable "plugins.7z"
+[683] addDownloadable "qml.7z"
+[683] addDownloadable "translations.7z"
+[683] addDownloadable "content.7z"
+************************************* Invoked: Mo. Mai 30 13:26:17 2022
+[0] Operations sanity check succeeded.
+[1151] Url is: "/tmp/remoterepo-t8mSLn"
+[1151] addDownloadable "bin.7z"
+[1151] addDownloadable "doc.7z"
+[1151] addDownloadable "lib.7z"
+[1151] addDownloadable "plugins.7z"
+[1151] addDownloadable "qml.7z"
+[1151] addDownloadable "translations.7z"
+[1151] addDownloadable "content.7z"
+************************************* Invoked: Mo. Mai 30 13:37:07 2022
+[0] Operations sanity check succeeded.
+[682] Url is: "/tmp/remoterepo-2wqu1x"
+[682] addDownloadable "bin.7z"
+[682] addDownloadable "doc.7z"
+[682] addDownloadable "lib.7z"
+[682] addDownloadable "plugins.7z"
+[682] addDownloadable "qml.7z"
+[682] addDownloadable "translations.7z"
+[682] addDownloadable "content.7z"
+************************************* Invoked: Mo. Mai 30 13:37:12 2022
+[0] Arguments: maintenancetool, --updater
+[24] Operations sanity check succeeded.
+[4865] addDownloadable "bin.7z"
+[4865] addDownloadable "doc.7z"
+[4865] addDownloadable "lib.7z"
+[4865] addDownloadable "plugins.7z"
+[4865] addDownloadable "qml.7z"
+[4865] addDownloadable "translations.7z"
+[4865] addDownloadable "content.7z"
+[7361] Tmp is on a different volume than the installation directory. Tmp volume mount point: "/" Free space available: "184.90 GB" Install volume mount point: "/home" Free space available: "10.42 GB"
+[7361] Installation space required: "246.59 MB" Temporary space required: "61.89 MB" Local repository size: "0.00 bytes"
+[8690] Install size: 1 components
+[89255] undo operation= "MinimumProgress"
+[89255] undo operation= "Extract"
+[89256] undo ANavS_Wizard operation: Extract
+[89256] 	- arguments: installer://ANavS_Wizard/7.2.4-1translations.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89259] Done
+[89259] undo operation= "Extract"
+[89259] undo ANavS_Wizard operation: Extract
+[89259] 	- arguments: installer://ANavS_Wizard/7.2.4-1qml.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89309] Done
+[89309] undo operation= "Extract"
+[89309] undo ANavS_Wizard operation: Extract
+[89309] 	- arguments: installer://ANavS_Wizard/7.2.4-1plugins.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89310] Done
+[89310] undo operation= "Extract"
+[89310] undo ANavS_Wizard operation: Extract
+[89310] 	- arguments: installer://ANavS_Wizard/7.2.4-1lib.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89314] Done
+[89314] undo operation= "Extract"
+[89314] undo ANavS_Wizard operation: Extract
+[89314] 	- arguments: installer://ANavS_Wizard/7.2.4-1doc.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89318] Done
+[89319] undo operation= "Extract"
+[89319] undo ANavS_Wizard operation: Extract
+[89319] 	- arguments: installer://ANavS_Wizard/7.2.4-1content.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89319] Done
+[89321] undo operation= "Extract"
+[89321] undo ANavS_Wizard operation: Extract
+[89321] 	- arguments: installer://ANavS_Wizard/7.2.4-1bin.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89351] Done
+[89352] undo operation= "Extract"
+[89352] undo ANavS_Wizard operation: Extract
+[89352] 	- arguments: installer://ANavS_Wizard/7.2.1-1translations.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89352] Done
+[89352] undo operation= "Extract"
+[89352] undo ANavS_Wizard operation: Extract
+[89352] 	- arguments: installer://ANavS_Wizard/7.2.1-1qml.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89358] Done
+[89358] undo operation= "Extract"
+[89358] undo ANavS_Wizard operation: Extract
+[89358] 	- arguments: installer://ANavS_Wizard/7.2.1-1plugins.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89358] Done
+[89358] undo operation= "Extract"
+[89358] undo ANavS_Wizard operation: Extract
+[89358] 	- arguments: installer://ANavS_Wizard/7.2.1-1lib.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89358] Done
+[89358] undo operation= "Extract"
+[89358] undo ANavS_Wizard operation: Extract
+[89358] 	- arguments: installer://ANavS_Wizard/7.2.1-1doc.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89359] Done
+[89359] undo operation= "Extract"
+[89359] undo ANavS_Wizard operation: Extract
+[89359] 	- arguments: installer://ANavS_Wizard/7.2.1-1content.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89359] Done
+[89359] undo operation= "Extract"
+[89359] undo ANavS_Wizard operation: Extract
+[89359] 	- arguments: installer://ANavS_Wizard/7.2.1-1bin.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89365] Done
+[89379] backup ANavS_Wizard operation: Extract
+[89379] 	- arguments: installer://ANavS_Wizard/7.2.6-1bin.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[89379] Done
+[89379] perform ANavS_Wizard operation: Extract
+[89379] 	- arguments: installer://ANavS_Wizard/7.2.6-1bin.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[91098] Done
+[91098] backup ANavS_Wizard operation: Extract
+[91098] 	- arguments: installer://ANavS_Wizard/7.2.6-1content.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[91098] Done
+[91098] perform ANavS_Wizard operation: Extract
+[91098] 	- arguments: installer://ANavS_Wizard/7.2.6-1content.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[91295] Done
+[91295] backup ANavS_Wizard operation: Extract
+[91295] 	- arguments: installer://ANavS_Wizard/7.2.6-1doc.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[91295] Done
+[91295] perform ANavS_Wizard operation: Extract
+[91295] 	- arguments: installer://ANavS_Wizard/7.2.6-1doc.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[91300] Done
+[91300] backup ANavS_Wizard operation: Extract
+[91300] 	- arguments: installer://ANavS_Wizard/7.2.6-1lib.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[91300] Done
+[91300] perform ANavS_Wizard operation: Extract
+[91300] 	- arguments: installer://ANavS_Wizard/7.2.6-1lib.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[92636] Done
+[92636] backup ANavS_Wizard operation: Extract
+[92636] 	- arguments: installer://ANavS_Wizard/7.2.6-1plugins.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[92636] Done
+[92637] perform ANavS_Wizard operation: Extract
+[92637] 	- arguments: installer://ANavS_Wizard/7.2.6-1plugins.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[92687] Done
+[92687] backup ANavS_Wizard operation: Extract
+[92687] 	- arguments: installer://ANavS_Wizard/7.2.6-1qml.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[92687] Done
+[92687] perform ANavS_Wizard operation: Extract
+[92687] 	- arguments: installer://ANavS_Wizard/7.2.6-1qml.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[92896] Done
+[92896] backup ANavS_Wizard operation: Extract
+[92896] 	- arguments: installer://ANavS_Wizard/7.2.6-1translations.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[92896] Done
+[92896] perform ANavS_Wizard operation: Extract
+[92896] 	- arguments: installer://ANavS_Wizard/7.2.6-1translations.7z, /home/nagaraj/Development/tools/ANAVS_Wizard/wizard
+[92932] Done
+************************************* Invoked: Mo. Mai 30 13:38:56 2022
+[0] Operations sanity check succeeded.
+[535] Url is: "/tmp/remoterepo-m1kZoB"
+[535] addDownloadable "bin.7z"
+[535] addDownloadable "doc.7z"
+[535] addDownloadable "lib.7z"
+[535] addDownloadable "plugins.7z"
+[535] addDownloadable "qml.7z"
+[535] addDownloadable "translations.7z"
+[535] addDownloadable "content.7z"
+************************************* Invoked: Mo. Mai 30 13:44:40 2022
+[0] Operations sanity check succeeded.
+[1713] Url is: "/tmp/remoterepo-BY2uEt"
+[1713] addDownloadable "bin.7z"
+[1713] addDownloadable "doc.7z"
+[1713] addDownloadable "lib.7z"
+[1713] addDownloadable "plugins.7z"
+[1713] addDownloadable "qml.7z"
+[1713] addDownloadable "translations.7z"
+[1713] addDownloadable "content.7z"
+************************************* Invoked: Fr. Juni 3 12:48:42 2022
+[0] Operations sanity check succeeded.
+[709] Url is: "/tmp/remoterepo-9tvH5p"
+[709] addDownloadable "bin.7z"
+[709] addDownloadable "doc.7z"
+[709] addDownloadable "lib.7z"
+[710] addDownloadable "plugins.7z"
+[710] addDownloadable "qml.7z"
+[710] addDownloadable "translations.7z"
+[710] addDownloadable "content.7z"
+************************************* Invoked: Fr. Juni 3 13:06:58 2022
+[0] Operations sanity check succeeded.
+[1616] Url is: "/tmp/remoterepo-HX6bDY"
+[1616] addDownloadable "bin.7z"
+[1616] addDownloadable "doc.7z"
+[1616] addDownloadable "lib.7z"
+[1616] addDownloadable "plugins.7z"
+[1616] addDownloadable "qml.7z"
+[1616] addDownloadable "translations.7z"
+[1616] addDownloadable "content.7z"
+************************************* Invoked: Fr. Juni 3 13:30:22 2022
+[0] Operations sanity check succeeded.
+[782] Url is: "/tmp/remoterepo-zK6TVK"
+[782] addDownloadable "bin.7z"
+[782] addDownloadable "doc.7z"
+[782] addDownloadable "lib.7z"
+[782] addDownloadable "plugins.7z"
+[782] addDownloadable "qml.7z"
+[782] addDownloadable "translations.7z"
+[782] addDownloadable "content.7z"
+************************************* Invoked: Di. Juni 7 10:32:48 2022
+[0] Operations sanity check succeeded.
+[1181] Url is: "/tmp/remoterepo-fiERTZ"
+[1181] addDownloadable "bin.7z"
+[1181] addDownloadable "doc.7z"
+[1181] addDownloadable "lib.7z"
+[1181] addDownloadable "plugins.7z"
+[1181] addDownloadable "qml.7z"
+[1181] addDownloadable "translations.7z"
+[1181] addDownloadable "content.7z"
+************************************* Invoked: Di. Juni 7 11:35:16 2022
+[0] Operations sanity check succeeded.
+[1278] Url is: "/tmp/remoterepo-T0YtT0"
+[1278] addDownloadable "bin.7z"
+[1278] addDownloadable "doc.7z"
+[1278] addDownloadable "lib.7z"
+[1278] addDownloadable "plugins.7z"
+[1278] addDownloadable "qml.7z"
+[1278] addDownloadable "translations.7z"
+[1278] addDownloadable "content.7z"
+************************************* Invoked: Di. Juni 7 14:53:01 2022
+[0] Operations sanity check succeeded.
+[813] Url is: "/tmp/remoterepo-8Fe99i"
+[813] addDownloadable "bin.7z"
+[813] addDownloadable "doc.7z"
+[813] addDownloadable "lib.7z"
+[813] addDownloadable "plugins.7z"
+[813] addDownloadable "qml.7z"
+[813] addDownloadable "translations.7z"
+[813] addDownloadable "content.7z"
+************************************* Invoked: Di. Juni 7 14:55:27 2022
+[0] Operations sanity check succeeded.
+[921] Url is: "/tmp/remoterepo-9APrGl"
+[921] addDownloadable "bin.7z"
+[921] addDownloadable "doc.7z"
+[921] addDownloadable "lib.7z"
+[921] addDownloadable "plugins.7z"
+[922] addDownloadable "qml.7z"
+[922] addDownloadable "translations.7z"
+[922] addDownloadable "content.7z"
+************************************* Invoked: Di. Juni 7 14:56:00 2022
+[0] Operations sanity check succeeded.
+[1006] Url is: "/tmp/remoterepo-n2XHqH"
+[1006] addDownloadable "bin.7z"
+[1006] addDownloadable "doc.7z"
+[1006] addDownloadable "lib.7z"
+[1006] addDownloadable "plugins.7z"
+[1006] addDownloadable "qml.7z"
+[1006] addDownloadable "translations.7z"
+[1006] addDownloadable "content.7z"
+************************************* Invoked: Di. Juni 7 15:39:51 2022
+[0] Operations sanity check succeeded.
+[858] Url is: "/tmp/remoterepo-bifOMa"
+[858] addDownloadable "bin.7z"
+[858] addDownloadable "doc.7z"
+[858] addDownloadable "lib.7z"
+[858] addDownloadable "plugins.7z"
+[858] addDownloadable "qml.7z"
+[858] addDownloadable "translations.7z"
+[858] addDownloadable "content.7z"
+************************************* Invoked: Di. Juni 7 16:19:21 2022
+[0] Operations sanity check succeeded.
+[1069] Url is: "/tmp/remoterepo-8iszAD"
+[1069] addDownloadable "bin.7z"
+[1069] addDownloadable "doc.7z"
+[1069] addDownloadable "lib.7z"
+[1069] addDownloadable "plugins.7z"
+[1069] addDownloadable "qml.7z"
+[1069] addDownloadable "translations.7z"
+[1070] addDownloadable "content.7z"
+************************************* Invoked: Mi. Juni 8 14:24:04 2022
+[0] Operations sanity check succeeded.
+[826] Url is: "/tmp/remoterepo-JgaR6h"
+[826] addDownloadable "bin.7z"
+[826] addDownloadable "doc.7z"
+[826] addDownloadable "lib.7z"
+[826] addDownloadable "plugins.7z"
+[826] addDownloadable "qml.7z"
+[826] addDownloadable "translations.7z"
+[826] addDownloadable "content.7z"
+************************************* Invoked: Mi. Juli 6 17:52:00 2022
+[0] Operations sanity check succeeded.
+[1069] Url is: "/tmp/remoterepo-qt8BF6"
+[1069] addDownloadable "bin.7z"
+[1069] addDownloadable "doc.7z"
+[1069] addDownloadable "lib.7z"
+[1069] addDownloadable "plugins.7z"
+[1069] addDownloadable "qml.7z"
+[1069] addDownloadable "translations.7z"
+[1069] addDownloadable "content.7z"
+************************************* Invoked: Fr. Juli 8 15:43:51 2022
+[0] Operations sanity check succeeded.
+[1165] Url is: "/tmp/remoterepo-RwMtnH"
+[1165] addDownloadable "bin.7z"
+[1165] addDownloadable "doc.7z"
+[1165] addDownloadable "lib.7z"
+[1165] addDownloadable "plugins.7z"
+[1165] addDownloadable "qml.7z"
+[1165] addDownloadable "translations.7z"
+[1165] addDownloadable "content.7z"
+************************************* Invoked: Fr. Juli 8 16:27:46 2022
+[0] Operations sanity check succeeded.
+[1109] Url is: "/tmp/remoterepo-cGBBBW"
+[1109] addDownloadable "bin.7z"
+[1109] addDownloadable "doc.7z"
+[1109] addDownloadable "lib.7z"
+[1109] addDownloadable "plugins.7z"
+[1109] addDownloadable "qml.7z"
+[1109] addDownloadable "translations.7z"
+[1109] addDownloadable "content.7z"
+************************************* Invoked: Fr. Juli 8 17:45:06 2022
+[0] Operations sanity check succeeded.
+[1127] Url is: "/tmp/remoterepo-Xh8OR6"
+[1127] addDownloadable "bin.7z"
+[1127] addDownloadable "doc.7z"
+[1127] addDownloadable "lib.7z"
+[1127] addDownloadable "plugins.7z"
+[1127] addDownloadable "qml.7z"
+[1127] addDownloadable "translations.7z"
+[1127] addDownloadable "content.7z"

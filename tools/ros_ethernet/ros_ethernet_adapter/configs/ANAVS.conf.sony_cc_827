@@ -1,0 +1,146 @@
+ENABLE_GNSS=1
+ENABLE_IMU=1
+ENABLE_CAN=1
+ENABLE_ODO=0
+
+inpstr1-type       =tcpcli     # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,7:ntripcli,8:ftp,9:http,10:bt)
+inpstr2-type       =tcpcli     # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,7:ntripcli,8:ftp,9:http,10:bt)
+inpstr3-type       =tcpcli     # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,7:ntripcli,8:ftp,9:http,10:bt)
+inpstr4-type       =tcpcli    # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,7:ntripcli,8:ftp,9:http,10:bt)
+inpstr7-type       =tcpcli
+
+file-cmdfile1      =
+file-cmdfile2      =
+file-cmdfile3      =
+file-cmdfile4      =
+
+#########################
+##################################################
+# VERY CAREFUL WITH THE PATHS: no spaces after '='
+##################################################
+#########################
+inpstr1-path       =192.168.22.99:4001
+inpstr2-path       =192.168.22.99:4002    # null
+inpstr3-path       =192.168.22.99:4003    # null
+inpstr4-path       =192.168.22.99:2102
+inpstr7-path       =192.168.22.99:4007
+
+# ntrip-config    =sony01:W31T868M@88.217.154.201:2102/AX-PED    # null
+#inpstr4-path    =sony01:W31T868M@88.217.154.201:2102/AX-PED    # null
+
+# History-paths for RTCM
+# inpstr4-path       =sony01:W31T868M@caster.axio-net.eu:2102/AX-PED
+# inpstr4-path       =RTCM_User:anavs123@18.189.7.57:30672/ANAVS
+# inpstr4-path       =anavs01:2899MDJD@129.187.109.10:2101/NAVTUM
+
+inpstr1-format     =ubx        # (0:rtcm2,1:rtcm3,2:oem4,3:oem3,4:ubx,5:ss2,6:hemis,7:skytraq,8:gw10,9:javad,15:sp3)
+inpstr2-format     =ubx        # (0:rtcm2,1:rtcm3,2:oem4,3:oem3,4:ubx,5:ss2,6:hemis,7:skytraq,8:gw10,9:javad,15:sp3)
+inpstr3-format     =ubx        # (0:rtcm2,1:rtcm3,2:oem4,3:oem3,4:ubx,5:ss2,6:hemis,7:skytraq,8:gw10,9:javad,15:sp3)
+inpstr4-format     =rtcm3        # (0:rtcm2,1:rtcm3,2:oem4,3:oem3,4:ubx,5:ss2,6:hemis,7:skytraq,8:gw10,9:javad,15:sp3)
+inpstr7-format     =can        #
+
+#inpstr1-serialNumber =9beccb1c00000000000001
+#inpstr2-serialNumber =9beccb1c00000000000002
+#inpstr3-serialNumber =9beccb1c00000000000003
+#inpstr4-serialNumber =
+
+inpstr4-nmeareq    =single     # (0:off,1:latlon,2:single)
+inpstr4-nmealat    =0          # (deg)
+inpstr4-nmealon    =0          # (deg)
+
+outstr1-type       =tcpsvr    # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,6:ntripsvr)
+#outstr1-type       =file
+# outstr2-type       =tcpsvr    # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,6:ntripsvr)
+#outstr1-path       =/home/sl1car/PAD_solution.bin
+
+outstr1-path       =127.0.0.1:6001
+outstr2-type       =off # file
+#outstr2-path       =PAD_solution.bin
+
+outstr1-format     =llh        # (0:llh,1:xyz,2:enu,3:nmea)
+outstr2-format     =xyz        # (0:llh,1:xyz,2:enu,3:nmea)
+
+logstr1-type       =off  # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,6:ntripsvr)
+logstr2-type       =off  # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,6:ntripsvr)
+logstr3-type       =off  # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,6:ntripsvr)
+logstr4-type       =off  # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,6:ntripsvr)
+logstr7-type       =off  # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,6:ntripsvr)
+
+logdec1-type       =off       # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,6:ntripsvr)
+logdec2-type       =off       # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,6:ntripsvr)
+logdec3-type       =off       # (0:off,1:serial,2:file,3:tcpsvr,4:tcpcli,6:ntripsvr)
+
+logstr1-path    =    # null
+logstr2-path    =    # null
+logstr3-path    =    # null
+logstr4-path    =    # null
+logstr7-path    =    # null
+
+logdec1-path       =
+logdec2-path       =
+logdec3-path       =
+
+misc-svrcycle      =10         # (ms)
+misc-timeout       =2000      # (ms)
+misc-reconnect     =2000      # (ms)
+misc-nmeacycle     =5000       # (ms)
+misc-buffsize      =32768      # (bytes)
+misc-navmsgsel     =all        # (0:all,1:rover,2:base,3:corr)
+misc-proxyaddr     =
+misc-fswapmargin   =30         # (s)
+
+anavsfeedersvr-syncmode =0  # 0:multi-sensor(default), 1:GNSS-only, 2:IMU-only, 3:BARO-only
+customer_code    =827    # 0:normal X(unsigned int): activating customer-related modifications
+
+##############################
+# PAD-SOFTWARE CONFIGURATION #
+##############################
+PAD-rcv1_pos_body    =1.384,-0.425,-1.055    # [m] from origin in body frame
+PAD-rcv2_pos_body    =-0.303,-0.420,-1.050    # [m] from origin in body frame
+PAD-rcv3_pos_body    =-0.303,0.425,-1.050    # [m] from origin in body frame
+PAD-rcv4_pos_body      =0.0,0.0,0.0     # [m] from origin in body frame
+
+PAD-rcv1_misal_body    =0.0,0.0,0.0     # [rad] w.r.t. body frame axes
+PAD-rcv2_misal_body    =0.0,0.0,0.0     # [rad] w.r.t. body frame axes
+PAD-rcv3_misal_body    =0.0,0.0,0.0     # [rad] w.r.t. body frame axes
+PAD-rcv4_misal_body    =                # [rad] w.r.t. body frame axes
+
+PAD-imu1_pos_body    =0.000,0.000,-0.420    # [m] from origin in body frame
+PAD-imu2_pos_body      =0.0,0.0,0.0    # [m] from origin in body frame
+PAD-imu3_pos_body      =0.0,0.0,0.0    # [m] from origin in body frame
+PAD-imu4_pos_body      =0.0,0.0,0.0   # [m] from origin in body frame
+
+PAD-lps_pos_body           =0.000,0.000,0.000   # [m] from origin in body frame
+PAD-vis_pos_body           =0.000,0.000,0.000   # [m] from origin in body frame
+PAD-lidar_pos_body         =0.000,0.000,0.000   # [m] from origin in body frame
+PAD-odo_pos_body    =0.000,0.000,0.000    # [m] from origin in body frame
+
+PAD-ref_posNEDL_apriori    =0.000,0.000,0.000    # [m]
+PAD-ref_sigmaNEDL_apriori    =0.020,0.020,0.020    # [m]
+PAD-ref_flagNEDL_apriori    =0,0,0    # Boolean
+
+PAD-wheel_radius =0.12  # [m]
+PAD-flag_odo_active    =1    # 0=deactivated, 1=activated
+
+PAD-Up-Velocity_limitation     =1   # Boolean
+
+PAD-Heading-Velocity_matching  =1   # Boolean
+
+PAD-flag_fast_fix  =0  # Boolean
+
+PAD-output_options =0 # 0:UBX on both outputs; 1:NMEA on both outputs; 2:UBX on out1|NMEA on out2
+PAD-solupdate_Hz    =55     # Medium Output-Rate in Hz(5Hz, 55Hz or 105Hz)
+
+PAD-flag_low_latency    =false    # Force low latency in sensor fusion
+
+
+PAD-flag_dynamic_att_fix    =0    # Automatically generated property
+
+PAD-flag_low_latency               =0
+PAD-flag_dynamic_rtk_fix       =0
+PAD-flag_no_integrity_check =0
+PAD-rtk_meas_limit                 =50
+PAD-att_meas_limit                 =20
+PAD-dyn_rtk_fix_count_ep    =20
+PAD-dyn_att_fix_count_ep    =20
+PAD-flag_solution_prediction =0

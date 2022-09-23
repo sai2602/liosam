@@ -1,0 +1,4 @@
+[submodule "decoder-cpp"]
+	path = decoder-cpp
+	url = https://vpn.anavs.de/anavs-development/misc/decoder-cpp.git
+	branch = develop

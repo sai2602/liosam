@@ -1,0 +1,2 @@
+realsense2_camera:realsense2_description
+-DCATKIN_DEVEL_PREFIX=/home/nagaraj/Development/tools/realsense_ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nagaraj/Development/tools/realsense_ros/catkin_ws/install -G Unix Makefiles

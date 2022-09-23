@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nagaraj/Development/tools/velodyne_driver/catkin_ws/install/setup.sh

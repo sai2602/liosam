@@ -1,0 +1,2 @@
+ros_marvelmind_package
+-DCATKIN_DEVEL_PREFIX=/home/nagaraj/Development/tools/ultrasonic_ros_wrapper/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nagaraj/Development/tools/ultrasonic_ros_wrapper/catkin_ws/install -G Unix Makefiles

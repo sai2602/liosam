@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ros_ethernet_server" />
+		<Option platforms="Unix;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="debug-exe">
+				<Option output="bin/Debug/anavs_ros_ethernet_server" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG_MODE" />
+					<Add directory="/opt/ros/$$(ROS_VERSION)/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,-rpath,/opt/ros/$$(ROS_VERSION)/lib" />
+					<Add directory="/opt/ros/$$(ROS_VERSION)/lib" />
+				</Linker>
+			</Target>
+			<Target title="release-exe">
+				<Option output="bin/Release/anavs_ros_ethernet_server" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add directory="/opt/ros/$$(ROS_VERSION)/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-Wl,-rpath,/opt/ros/$$(ROS_VERSION)/lib" />
+					<Add directory="/opt/ros/$$(ROS_VERSION)/lib" />
+				</Linker>
+			</Target>
+			<Target title="debug-exe-rpi">
+				<Option output="bin/Debug/anavs_ros_ethernet_server_rpi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="arm-elf-gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG_MODE" />
+					<Add directory="$$(RPI_SYSROOT)/opt/ros/$$(ROS_VERSION)/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,-rpath,$$(RPI_SYSROOT)/opt/ros/$$(ROS_VERSION)/lib" />
+					<Add directory="$$(RPI_SYSROOT)/opt/ros/$$(ROS_VERSION)/lib" />
+				</Linker>
+			</Target>
+			<Target title="release-exe-rpi">
+				<Option output="bin/Release/anavs_ros_ethernet_server_rpi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="arm-elf-gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="--sysroot=$(RPI_SYSROOT)" />
+					<Add directory="/opt/ros/$(ROS_VERSION)/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-Wl,-rpath,/opt/ros/$(ROS_VERSION)/lib:/usr/lib/arm-linux-gnueabihf:/lib:/lib/arm-linux-gnueabihf" />
+					<Add directory="/opt/ros/$(ROS_VERSION)/lib" />
+					<Add directory="/usr/lib/arm-linux-gnueabihf" />
+					<Add directory="/lib" />
+					<Add directory="/lib/arm-linux-gnueabihf" />
+				</Linker>
+			</Target>
+			<Environment>
+				<Variable name="ROS_VERSION" value="melodic" />
+				<Variable name="RPI_SYSROOT" value="NOT_WORKING_YET" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="roscpp" />
+			<Add library="rosconsole" />
+			<Add library="rostime" />
+			<Add library="roscpp_serialization" />
+			<Add library="message_filters" />
+			<Add library="boost_system" />
+		</Linker>
+		<Unit filename="common.h" />
+		<Unit filename="common_ros.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="maplab_PAD_types.h" />
+		<Unit filename="ros_types.h" />
+		<Unit filename="sockets/ClientSocket.cpp" />
+		<Unit filename="sockets/ClientSocket.h" />
+		<Unit filename="sockets/ClientSocketWrapper.cpp" />
+		<Unit filename="sockets/ClientSocketWrapper.h" />
+		<Unit filename="sockets/ServerSocket.cpp" />
+		<Unit filename="sockets/ServerSocket.h" />
+		<Unit filename="sockets/ServerSocketWrapper.cpp" />
+		<Unit filename="sockets/ServerSocketWrapper.h" />
+		<Unit filename="sockets/Socket.cpp" />
+		<Unit filename="sockets/Socket.h" />
+		<Unit filename="sockets/SocketData.cpp" />
+		<Unit filename="sockets/SocketData.h" />
+		<Unit filename="sockets/SocketDataWrapper.cpp" />
+		<Unit filename="sockets/SocketDataWrapper.h" />
+		<Unit filename="sockets/SocketException.h" />
+		<Unit filename="sockets/definition.h" />
+		<Unit filename="sockets/socket_api.h" />
+		<Unit filename="sockets/version.h" />
+		<Unit filename="ublox_partial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ubx_types.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

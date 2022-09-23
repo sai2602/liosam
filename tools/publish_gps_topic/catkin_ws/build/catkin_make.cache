@@ -1,0 +1,2 @@
+publish_gps
+-DCATKIN_DEVEL_PREFIX=/home/nagaraj/Development/tools/publish_gps_topic/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nagaraj/Development/tools/publish_gps_topic/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,14 @@
+<Packages>
+    <ApplicationName>ANavS® Wizard</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>ANavS_Wizard</Name>
+        <Title>ANavS_Wizard</Title>
+        <Description></Description>
+        <Version>7.2.6-1</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2022-05-30</InstallDate>
+        <Size>235065529</Size>
+        <Checkable>true</Checkable>
+    </Package>
+</Packages>

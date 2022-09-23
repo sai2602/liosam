@@ -1,0 +1,11 @@
+# ignore folders and files 
+bin
+obj
+client/bin
+client/obj
+ros_ethernet_adapter.workspace.layout
+ros_ethernet_server.depend
+ros_ethernet_server.layout
+client/ros_ethernet_client.depend
+client/ros_ethernet_client.layout
+.compile_commands.json

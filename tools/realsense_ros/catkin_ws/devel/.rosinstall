@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nagaraj/Development/tools/realsense_ros/catkin_ws/devel/setup.sh

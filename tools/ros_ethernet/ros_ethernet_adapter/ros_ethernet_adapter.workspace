@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="ros_ethernet_server.cbp" />
+		<Project filename="client/ros_ethernet_client.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
